@@ -10,6 +10,11 @@ apt-get update
 apt-get upgrade --force-yes
 apt-get install git-core --force-yes
 apt-get install build-essential bison openssl libreadline5 libreadline5-dev curl zlib1g zlib1g-dev libssl-dev libsqlite3-0 libsqlite3-dev sqlite3 libxml2-dev libmysqlclient-dev vim --force-yes
+apt-get install libcurl4-openssl-dev --force-yes
+apt-get install libxml2 libxml2-dev libxslt1-dev --force-yes
+apt-get install nodejs --force-yes
+apt-get install libqt4-dev --force-yes
+apt-get install mysql-server --force-yes
 echo "************* Just installed build-essential and all needed packages *************"
 sleep 2
 
@@ -44,4 +49,18 @@ sudo /usr/local/bin/ruby setup.rb
 gem install rubygems-update
 update_rubygems
 which gem
+gem -v
+echo "************* Rubygems installed *************"
+sleep 2
+
+echo "************* Installing Passenger *************"
+gem install passenger
+sleep 2
+passenger-install-nginx-module
+
+
+
+
+
+
 echo "************* COMPLETED *************"
