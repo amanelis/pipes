@@ -1,7 +1,7 @@
 #!/bin/bash
 
 clear
-echo "************* Ruby 1.8.7, 1.9.2, 1.9.3 Configuration  *************"
+echo "************* Configuring Server with Basic Packages  *************"
 echo "Configuring... now is your chance to STOP: CNTRL + C"
 sleep 7
 
@@ -50,11 +50,3 @@ apt-get install zlib1g -y
 apt-get install zlib1g-dev -y
 
 
-
-clear
-echo "************* Configuring RVM ******************"
-apt-get install ruby-rvm -y
-
-rvm pkg install openssl
-rvm pkg install readline
-rvm reinstall 1.9.2 --with-openssl-dir=$rvm_path/usr
