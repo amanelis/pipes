@@ -17,12 +17,7 @@ apt-get install libqt4-dev -y
 
 clear
 echo "************* Configuring RVM ******************"
-bash -s stable < <(curl -s https://raw.github.com/wayneeseguin/rvm/master/binscripts/rvm-installer )
-rm /root/.bashrc
-cd /root/
-wget http://raw.github.com/amanelis/pipes/master/bashrc
-mv /root/bashrc /root/.bashrc
-source /root/.bashrc
+apt-get install ruby-rvm
 
 rvm install 1.8.7
 rvm install 1.9.2
