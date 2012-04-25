@@ -9,11 +9,15 @@ apt-get update
 apt-get upgrade -y
 apt-get install ruby wget -y
 apt-get install git-core -y
-apt-get install build-essential bison openssl libreadline5 libreadline5-dev curl zlib1g zlib1g-dev libssl-dev libsqlite3-0 libsqlite3-dev sqlite3 libxml2-dev libmysqlclient-dev vim -y
+apt-get install build-essential automake bison openssl libreadline5 libreadline5-dev curl zlib1g zlib1g-dev libssl-dev libsqlite3-0 libsqlite3-dev sqlite3 libxml2-dev libmysqlclient-dev vim -y
 apt-get install libcurl4-openssl-dev -y
 apt-get install libxml2 libxml2-dev libxslt1-dev -y
 apt-get install nodejs -y
 apt-get install libqt4-dev -y
+apt-get install readline-common -y
+apt-get install libtool -y
+apt-get install libfcgi-dev -y
+apt-get install libyaml-0-2 -y
 
 clear
 echo "************* Configuring RVM ******************"
