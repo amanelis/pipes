@@ -35,5 +35,7 @@ clear
 echo "************* Configuring RVM ******************"
 apt-get install ruby-rvm -y
 
+rvm --skip-autoreconf pkg install openssl
+
 rvm install ruby-1.9.2-p180 --patch openssl.patch
 
