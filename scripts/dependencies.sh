@@ -31,6 +31,7 @@ sudo apt-get install libsqlite3-0 -y
 sudo apt-get install libsqlite3-dev -y
 sudo apt-get install libmysqlclient-dev -y
 sudo apt-get install libcurl4-openssl-dev -y
+sudo apt-get install libmagick9-dev -y
 sudo apt-get install libc6-dev -y
 sudo apt-get install libxml2 -y
 sudo apt-get install libxml2-dev -y
@@ -48,4 +49,6 @@ sudo apt-get install ruby-dev -y
 sudo apt-get install sqlite3 -y
 sudo apt-get install zlib1g -y
 sudo apt-get install zlib1g-dev -y
+
+
 sudo apt-get install postgresql-client libpq5 libpq-dev -y
