@@ -1,5 +1,4 @@
 #!/bin/bash
-
 clear
 echo "************* Configuring Server with Basic Packages  *************"
 echo "Configuring... now is your chance to STOP: CNTRL + C"
@@ -45,6 +44,9 @@ apt-get install liberb-ruby -y
 apt-get install nodejs -y
 apt-get install ncurses-dev -y
 apt-get install readline-common -y
+apt-get install ruby-dev -y
 apt-get install sqlite3 -y
 apt-get install zlib1g -y
 apt-get install zlib1g-dev -y
+
+apt-get install postgresql-client libpq5 libpq-dev -y
