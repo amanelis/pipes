@@ -21,7 +21,7 @@ apt-get install libyaml-0-2 -y
 
 clear
 echo "************* Configuring RVM ******************"
-apt-get install ruby-rvm
+apt-get install ruby-rvm -y
 
 rvm install 1.8.7
 rvm install 1.9.2
