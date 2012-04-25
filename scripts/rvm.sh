@@ -2,7 +2,7 @@ bash -s stable < <(curl -s https://raw.github.com/wayneeseguin/rvm/master/binscr
 
 wget https://raw.github.com/amanelis/pipes/master/lib/bashrc -O .bashrc
 
-source .bashrc
+source /root/.bashrc
 bash --login
 
 type rvm | head -n 1
