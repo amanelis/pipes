@@ -3,7 +3,9 @@ bash -s stable < <(curl -s https://raw.github.com/wayneeseguin/rvm/master/binscr
 wget https://raw.github.com/amanelis/pipes/master/lib/bashrc -O .bashrc
 
 source .bashrc
-# bash --login
+bash --login
 
-/usr/local/rvm/bin/rvm install ruby-1.9.2-p320
-/usr/local/rvm/bin/rvm --default use 1.9.2-p320
+type rvm | head -n 1
+
+# /usr/local/rvm/bin/rvm install ruby-1.9.2-p320
+# /usr/local/rvm/bin/rvm --default use 1.9.2-p320
