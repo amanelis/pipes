@@ -2,7 +2,7 @@
 
 ### Introduction
 ----------------
-The goal of this repository is to allow us to manually provision servers quickly with custom build scripts for different stack types. The main script contains the exact steps of what packages and binaries will be installed and then the scripts folder will hold depnencies and any other scripts required to install pacakges.
+The goal of this repository is to safely and quickly configure and build a Ubuntu ~> 11 server ready to go for Rails hosting with all required dependencies.
 
 ### Initalizing 
 Simply run this command to begin the install of the package and scripts
