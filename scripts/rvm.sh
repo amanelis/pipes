@@ -6,7 +6,5 @@ wget https://raw.github.com/amanelis/pipes/master/lib/gemrc -O .gemrc
 source ~/.bashrc
 bash --login
 
-type rvm | head -n 1
-
 rvm install ruby-1.9.2-p320
-rvm --default use 1.9.2-p320
+rvm --default use 2.9.2-p320
