@@ -2,7 +2,7 @@ bash -s stable < <(curl -s https://raw.github.com/wayneeseguin/rvm/master/binscr
 
 wget https://raw.github.com/amanelis/pipes/master/lib/bashrc -O /root/.bashrc
 wget https://raw.github.com/amanelis/pipes/master/lib/gemrc -O /root/.gemrc
-wget https://raw.github.com/amanelis/pipes/master/lib/nginx -O /etc/init.d/
+wget https://raw.github.com/amanelis/pipes/master/lib/nginx -O /etc/init.d/nginx
 chmod a+x /etc/init.d/nginx
 
 source ~/.bashrc
