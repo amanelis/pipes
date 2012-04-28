@@ -8,3 +8,5 @@ bash --login
 
 rvm install ruby-1.9.2-p320
 rvm --default use 2.9.2-p320
+
+# rvmsudo passenger-install-nginx-module
