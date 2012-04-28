@@ -1,7 +1,9 @@
 bash -s stable < <(curl -s https://raw.github.com/wayneeseguin/rvm/master/binscripts/rvm-installer )
 
-wget https://raw.github.com/amanelis/pipes/master/lib/bashrc -O .bashrc
-wget https://raw.github.com/amanelis/pipes/master/lib/gemrc -O .gemrc
+wget https://raw.github.com/amanelis/pipes/master/lib/bashrc -O /root/.bashrc
+wget https://raw.github.com/amanelis/pipes/master/lib/gemrc -O /root/.gemrc
+wget https://raw.github.com/amanelis/pipes/master/lib/nginx -O /etc/init.d/
+chmod a+x /etc/init.d/nginx
 
 source ~/.bashrc
 bash --login
