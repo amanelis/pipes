@@ -16,3 +16,5 @@ gem install passenger -v '3.0.12'
 gem install rails -v '3.1.3'
 
 # rvmsudo passenger-install-nginx-module
+# OR
+# /usr/local/rvm/gems/ruby-1.9.2-p320/bin/passenger-install-nginx-module
