@@ -29,9 +29,7 @@ echo "Updateing RubyGems";
 echo "#####################################################";
 
 gem update --system;
-
 gem install bundler;
-
 
 # cleanup
 cd /tmp;
