@@ -10,3 +10,5 @@ bash -s stable < <(curl -s https://raw.github.com/amanelis/pipes/master/scripts/
 echo "-----> Installing Nginx Passenger"
 bash -s stable < <(curl -s https://raw.github.com/amanelis/pipes/master/scripts/nginx.sh )
 
+echo "-----> Setting up users and groups"
+bash -s stable < <(curl -s https://raw.github.com/amanelis/pipes/master/scripts/user.sh )
