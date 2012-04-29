@@ -56,4 +56,4 @@ wget https://raw.github.com/amanelis/pipes/master/lib/bashrc -O /root/.bashrc
 wget https://raw.github.com/amanelis/pipes/master/lib/gemrc -O /root/.gemrc
 
 source ~/.bashrc
-bash --login
+# bash --login
