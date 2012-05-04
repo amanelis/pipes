@@ -25,7 +25,7 @@ sudo apt-get install libyaml-dev -y
 sudo apt-get install libreadline-dev -y
 sudo apt-get install libreadline6-dev -y
 sudo apt-get install libreadline6 -y
-sudo apt-get install libreadline5-dev
+sudo apt-get install libreadline5-dev -y
 sudo apt-get install libreadline5 -y 
 sudo apt-get install libsqlite3-0 -y
 sudo apt-get install libsqlite3-dev -y
