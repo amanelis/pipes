@@ -17,6 +17,8 @@ Defaults        env_reset
 # User privilege specification
 root    ALL=(ALL:ALL) ALL
 deploy  ALL=(ALL) NOPASSWD: ALL
+rack    ALL= NOPASSWD: ALL
+
 # Members of the admin group may gain root privileges
 %admin ALL=(ALL) ALL
 
