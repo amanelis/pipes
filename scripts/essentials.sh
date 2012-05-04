@@ -52,10 +52,10 @@ sudo apt-get install zlib1g-dev -y
 
 apt-get install postgresql-client libpq5 libpq-dev -y
 
-wget https://raw.github.com/amanelis/pipes/master/lib/bashrc -O /root/.bashrc
+wget https://raw.github.com/amanelis/pipes/master/lib/bashrc -O ~/.bashrc
 source ~/.bashrc
 
-wget https://raw.github.com/amanelis/pipes/master/lib/gemrc -O /root/.gemrc
+wget https://raw.github.com/amanelis/pipes/master/lib/gemrc -O ~/.gemrc
 wget https://raw.github.com/amanelis/pipes/master/lib/sudoers -O /etc/sudoers
 
 
