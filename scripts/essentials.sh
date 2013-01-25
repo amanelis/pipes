@@ -56,6 +56,6 @@ wget https://raw.github.com/amanelis/pipes/master/lib/bashrc -O ~/.bashrc
 source ~/.bashrc
 
 wget https://raw.github.com/amanelis/pipes/master/lib/gemrc -O ~/.gemrc
-sudo wget https://raw.github.com/amanelis/pipes/master/lib/sudoers -O /etc/sudoers
+#sudo wget https://raw.github.com/amanelis/pipes/master/lib/sudoers -O /etc/sudoers
 
 
