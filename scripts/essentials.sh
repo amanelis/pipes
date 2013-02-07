@@ -49,6 +49,7 @@ sudo apt-get install ruby-dev -y
 sudo apt-get install sqlite3 -y
 sudo apt-get install zlib1g -y
 sudo apt-get install zlib1g-dev -y
+sudo apt-get install sox -y
 
 apt-get install postgresql-client libpq5 libpq-dev -y
 
