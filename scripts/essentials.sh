@@ -50,6 +50,10 @@ sudo apt-get install sqlite3 -y
 sudo apt-get install zlib1g -y
 sudo apt-get install zlib1g-dev -y
 sudo apt-get install sox -y
+sudo apt-get install bzr -y
+sudo apt-get install default-jre -y
+sudo apt-get install scala -y
+sudo apt-get install unzip -y
 
 apt-get install postgresql-client libpq5 libpq-dev -y
 
