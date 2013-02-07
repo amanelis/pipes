@@ -7,7 +7,8 @@ echo - Getting SBT Launcher
 echo --------------------------------------------------------------------------------------------
 wget http://typesafe.artifactoryonline.com/typesafe/ivy-releases/org.scala-tools.sbt/sbt-launch/0.11.0/sbt-launch.jar
  
-printf 'java -Xmx512M -jar `dirname $0`/sbt-launch.jar "$@"' > sbt
+touch sbt
+echo 'java -Xmx512M -jar `dirname $0`/sbt-launch.jar "$@"' >> sbt
  
 chmod +x ./sbt
  
