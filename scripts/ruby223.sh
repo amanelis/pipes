@@ -4,6 +4,9 @@ echo "#####################################################";
 echo "Installing Ruby(2.2.3) from source";
 echo "#####################################################";
 
+apt-get install ruby2.0 -y
+apt-get install ruby2.0-dev -y
+
 cd /tmp;
 wget ftp://ftp.ruby-lang.org/pub/ruby/2.2/ruby-2.2.3.tar.gz;
 tar -xvzf ruby-2.2.3.tar.gz;
