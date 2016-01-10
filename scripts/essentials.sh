@@ -6,6 +6,7 @@ sleep 7
 
 sudo apt-get update
 sudo apt-get upgrade -y
+sudo apt-get install git -y
 sudo apt-get install git-core -y
 sudo apt-get install wget -y
 sudo apt-get install curl -y

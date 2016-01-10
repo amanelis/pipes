@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "#####################################################";
-echo "Installing Ruby from source";
+echo "Installing Ruby(1.9.3) from source";
 echo "#####################################################";
 
 cd /tmp;

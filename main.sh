@@ -1,14 +1,14 @@
 echo "-----> Installing system wide dependencies"
-bash -s stable < <(curl -s https://raw.github.com/amanelis/pipes/master/scripts/essentials.sh )
+curl -L https://raw.github.com/amanelis/pipes/master/scripts/essentials.sh | bash
 
 echo "-----> Installing Ruby 1.9.3"
-bash -s stable < <(curl -s https://raw.github.com/amanelis/pipes/master/scripts/ruby193.sh )
+curl -L https://raw.github.com/amanelis/pipes/master/scripts/ruby193.sh | bash
 
 echo "-----> Installing MySQL Server"
-bash -s stable < <(curl -s https://raw.github.com/amanelis/pipes/master/scripts/mysql.sh )
+curl -L https://raw.github.com/amanelis/pipes/master/scripts/mysql.sh | bash
 
 echo "-----> Installing Nginx Passenger"
-bash -s stable < <(curl -s https://raw.github.com/amanelis/pipes/master/scripts/nginx.sh )
+curl -L https://raw.github.com/amanelis/pipes/master/scripts/nginx.sh | bash
 
 echo "-----> Setting up users and groups"
-bash -s stable < <(curl -s https://raw.github.com/amanelis/pipes/master/scripts/user.sh )
+curl -L https://raw.github.com/amanelis/pipes/master/scripts/user.sh | bash
