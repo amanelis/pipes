@@ -2,7 +2,6 @@ echo "-----> Installing system wide dependencies"
 bash <(curl -s https://raw.github.com/amanelis/pipes/master/scripts/essentials.sh)
 
 echo "-----> Installing Ruby 2.2.3"
-curl -L https://raw.github.com/amanelis/pipes/master/scripts/ruby223.sh | bash
 bash <(curl -s https://raw.github.com/amanelis/pipes/master/scripts/ruby223.sh)
 
 echo "-----> Installing MySQL Server"
