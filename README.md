@@ -11,4 +11,6 @@ Simply run this command to begin the install of the package and scripts
 
 or
 
-  curl -L https://raw.github.com/amanelis/pipes/master/main.sh | bash
+	curl -L https://raw.github.com/amanelis/pipes/master/main.sh | bash
+	
+

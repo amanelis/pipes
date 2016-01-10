@@ -12,7 +12,6 @@ cd ruby-1.9.3-p125/;
 make;
 make install;
 
-
 echo "#####################################################";
 echo "Installing RubyGems";
 echo "#####################################################";
@@ -22,7 +21,6 @@ wget http://rubyforge.org/frs/download.php/76073/rubygems-1.8.24.tgz;
 tar -xvzf rubygems-1.8.24.tgz;
 cd rubygems-1.8.24/;
 ruby setup.rb;
-
 
 echo "#####################################################";
 echo "Updateing RubyGems";
