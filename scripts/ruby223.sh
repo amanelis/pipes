@@ -4,8 +4,8 @@ echo "#####################################################";
 echo "Installing Ruby(2.2.3) from source";
 echo "#####################################################";
 
-apt-get install ruby2.0 -y
-apt-get install ruby2.0-dev -y
+apt-get install -y ruby2.0
+apt-get install -y ruby2.0-dev
 
 cd /tmp;
 wget ftp://ftp.ruby-lang.org/pub/ruby/2.2/ruby-2.2.3.tar.gz;
@@ -34,5 +34,5 @@ gem install bundler;
 
 # cleanup
 cd /tmp;
-rm -rf /tmp/ruby-1.9.3-p125/;
-rm -rf /tmp/rubygems-1.8.24/;
+rm -rf /tmp/ruby-2.2.3*;
+rm -rf /tmp/rubygems-2.5.1*;

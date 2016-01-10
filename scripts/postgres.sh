@@ -4,5 +4,7 @@ echo "#####################################################";
 echo "Installing Postgres";
 echo "#####################################################";
 
-apt-get install postgresql-client -y
-apt-get install libpq-dev -y
+apt-get install -y postgresql-client
+apt-get install -y libpq-dev
+apt-get install -y libpq5
+apt-get install -y libpq-dev
