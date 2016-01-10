@@ -24,7 +24,7 @@ apt-get install -y libtool
 apt-get install -y libfcgi-dev
 apt-get install -y libyaml-0-2
 apt-get install -y libyaml-dev
-apt-get install -y libreadline-dev
+# apt-get install -y libreadline-dev
 apt-get install -y libreadline6-dev
 apt-get install -y libreadline6
 apt-get install -y libreadline5-dev
@@ -33,13 +33,13 @@ apt-get install -y libsqlite3-0
 apt-get install -y libsqlite3-dev
 apt-get install -y libmysqlclient-dev
 apt-get install -y libcurl4-openssl-dev
-apt-get install -y libmagick9-dev
+# apt-get install -y libmagick9-dev
 apt-get install -y libc6-dev
 apt-get install -y libxml2
 apt-get install -y libxml2-dev
 apt-get install -y libxslt1-dev
 apt-get install -y libxml2-dev
-apt-get install -y libopenssl-ruby
+# apt-get install -y libopenssl-ruby
 apt-get install -y libzlib-ruby
 apt-get install -y libyaml-ruby
 apt-get install -y libdrb-ruby
