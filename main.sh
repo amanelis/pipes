@@ -16,4 +16,5 @@ wget -O /tmp/user.sh https://raw.github.com/amanelis/pipes/master/scripts/user.s
 echo "-----> Installing Nginx Passenger"
 wget -O /tmp/nginx.sh https://raw.github.com/amanelis/pipes/master/scripts/nginx.sh
 
-bash /tmp/essentials.sh && bash /tmp/ruby223.sh && bash /tmp/mysql.sh && bash /tmp/postgres.sh && bash /tmp/user.sh
+bash /tmp/essentials.sh && bash /tmp/ruby223.sh && bash /tmp/mysql.sh && bash /tmp/postgres.sh && bash /tmp/user.sh && bash /tmp/nginx.sh
+rm /tmp/*.sh
