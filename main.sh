@@ -10,11 +10,10 @@ wget -O /tmp/mysql.sh https://raw.github.com/amanelis/pipes/master/scripts/mysql
 echo "-----> Installing Postgresql Server"
 wget -O /tmp/postgres.sh https://raw.github.com/amanelis/pipes/master/scripts/postgres.sh
 
-echo "-----> Installing Nginx Passenger"
-wget -O /tmp/nginx.sh https://raw.github.com/amanelis/pipes/master/scripts/nginx.sh
-
-
 echo "-----> Setting up users and groups"
 wget -O /tmp/user.sh https://raw.github.com/amanelis/pipes/master/scripts/user.sh
 
-bash /tmp/essentials.sh && bash /tmp/ruby223.sh && bash /tmp/mysql.sh && bash /tmp/postgres.sh && bash /tmp/nginx.sh && bash /tmp/user.sh
+echo "-----> Installing Nginx Passenger"
+wget -O /tmp/nginx.sh https://raw.github.com/amanelis/pipes/master/scripts/nginx.sh
+
+bash /tmp/essentials.sh && bash /tmp/ruby223.sh && bash /tmp/mysql.sh && bash /tmp/postgres.sh && bash /tmp/user.sh
