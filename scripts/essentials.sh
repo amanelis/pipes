@@ -6,6 +6,9 @@ sleep 1
 
 apt-get update
 apt-get upgrade
+
+apt-get install -y libicu-dev
+apt-get install -y cmake
 apt-get install -y make
 apt-get install -y git
 apt-get install -y git-core
@@ -24,7 +27,6 @@ apt-get install -y libtool
 apt-get install -y libfcgi-dev
 apt-get install -y libyaml-0-2
 apt-get install -y libyaml-dev
-# apt-get install -y libreadline-dev
 apt-get install -y libreadline6-dev
 apt-get install -y libreadline6
 apt-get install -y libreadline5-dev
@@ -33,13 +35,11 @@ apt-get install -y libsqlite3-0
 apt-get install -y libsqlite3-dev
 apt-get install -y libmysqlclient-dev
 apt-get install -y libcurl4-openssl-dev
-# apt-get install -y libmagick9-dev
 apt-get install -y libc6-dev
 apt-get install -y libxml2
 apt-get install -y libxml2-dev
 apt-get install -y libxslt1-dev
 apt-get install -y libxml2-dev
-# apt-get install -y libopenssl-ruby
 apt-get install -y libzlib-ruby
 apt-get install -y libyaml-ruby
 apt-get install -y libdrb-ruby
@@ -57,8 +57,6 @@ apt-get install -y bzr
 apt-get install -y default-jre
 apt-get install -y scala
 apt-get install -y unzip
-
-aptitude -y install zlib1g-dev
 
 wget https://raw.github.com/amanelis/pipes/master/lib/bashrc -O ~/.bashrc
 source ~/.bashrc

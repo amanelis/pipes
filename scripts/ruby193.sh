@@ -29,6 +29,9 @@ echo "#####################################################";
 gem update --system;
 gem install bundler;
 
+chmod o+rxw /usr/local/bin
+chmod o+rxw /usr/local/lib/ruby/gems/2.2.0/*
+
 # cleanup
 cd /tmp;
 rm -rf /tmp/ruby-1.9.3-p125/;
